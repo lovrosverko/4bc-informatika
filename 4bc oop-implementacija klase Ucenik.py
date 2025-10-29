@@ -51,8 +51,8 @@ class Ucenik:
 # Ovdje testiramo našu klasu
 
 # 1. Kreiranje dva objekta (instance) klase Učenik
-ucenik1 = Ucenik("Ana", "Anić", "4.a PMG")
-ucenik2 = Ucenik("Pero", "Perić", "4.a PMG")
+ucenik1 = Ucenik("Ana", "Anić", "4.b OG")
+ucenik2 = Ucenik("Pero", "Perić", "4.c OG")
 
 # 2. Dodavanje ocjena prvom učeniku
 ucenik1.dodaj_ocjenu(5)
@@ -68,3 +68,4 @@ ucenik2.dodaj_ocjenu(4)
 print("\n--- Podaci o učenicima ---")
 ucenik1.info()
 ucenik2.info()
+
